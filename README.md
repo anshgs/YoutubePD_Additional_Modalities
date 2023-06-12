@@ -1,5 +1,5 @@
-# YoutubePD_Audio
-Repository for extracting audio and running baseline model for YoutubePD
+# YoutubePD_Additional_Modalities
+Repository for extracting audio and running baselines for additional modalities of YoutubePD.
 
 ## Extracting audio representations:
 1) Run extract_video to download relevant video files
@@ -9,4 +9,5 @@ Repository for extracting audio and running baseline model for YoutubePD
 5) Run MAE_Encoder to generate video-level representations of the audio
 
 ## Running baseline models:
-1) Simply run through Baseline_Model/mae_mc.ipynb to generate baseline results
+1) Simply run through Baseline_Model/mae_mc.ipynb to generate baseline results for audio
+2) Similarly tun Baseline_Model/landmark_classifier.ipynb to generate baseline results for landmarks 
